@@ -1,0 +1,44 @@
+# Chatbot Project
+=====================
+
+A simple chatbot implemented in Python, using natural language processing (NLP) techniques to understand and respond to user input.
+
+## Overview
+--------
+
+This chatbot project uses a rule-based approach to match user input with predefined responses. It utilizes regular expressions to split user input into individual words and phrases, and then checks for matches against a dictionary of recognized words and phrases.
+
+## Features
+--------
+
+* **Basic conversation flow**: The chatbot follows a basic conversation flow, allowing users to interact with it in a natural way.
+* **Predefined responses**: The chatbot has a set of predefined responses to common user inputs, such as greetings and farewells.
+* **Longer responses**: The chatbot can provide longer responses to specific user inputs, such as requests for advice or information about eating.
+* **Unknown input handling**: The chatbot can handle unknown user input and respond with a default message.
+
+## Code Structure
+-----------------
+
+The code is structured into three main functions:
+
+* `message_probability`: calculates the probability of a user input matching a recognized word or phrase.
+* `check_all_messages`: checks all possible responses against the user input and returns the best match.
+* `get_response`: takes user input, splits it into individual words and phrases, and returns the best matching response.
+
+## Technical Requirements
+-------------------------
+
+* **Python 3.x**: The chatbot requires Python 3.x to run.
+* **No external dependencies**: The chatbot does not require any external dependencies to run.
+
+## Usage
+-----
+
+To use the chatbot, simply run the script and interact with it by typing messages. The chatbot will respond accordingly.
+
+## Example Use Cases
+-------------------
+
+* **Basic conversation**: Try greeting the chatbot with "hello" or "hi", and see how it responds.
+* **Requesting advice**: Ask the chatbot for advice by typing "give advice", and see how it responds.
+* **Unknown input**: Try typing something that the chatbot doesn't recognize, and see how it handles unknown input.
